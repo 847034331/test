@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+		<!-- bootstrap.js用到了jquery，所以要首先引用jquery -->
+		<script type="text/javascript" src="lib/jquery/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+	</head>
+	<body>
+		<button>Hello BootStrap!</button></br>
+		<button class="btn">Hello BootStrap!</button></br>
+		<button class="btn btn-success">Hello BootStrap!</button></br>
+		<a class="btn btn-danger" href="http://www.baidu.com">百度</a></br>
+		<a class="btn btn-danger active" href="http://www.baidu.com">百度</a></br>
+		<p class="bg-danger">HelloWorld</p>
+		<table class="table table-striped table-bordered table-hover">
+			<tr>
+				<th>#</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>User Name</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Mark</td>
+				<td>Otto</td>
+				<td>Otto</td>
+			</tr>
+			<tr class="success">
+				<td>2</td>
+				<td>Mark</td>
+				<td>Otto</td>
+				<td>Otto</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Mark</td>
+				<td>Otto</td>
+				<td>Otto</td>
+			</tr>
+			<td>4</td>
+				<td>Mark</td>
+				<td>Otto</td>
+				<td>Otto</td>
+			</tr>
+		</table>
+		<form action="" class="form-inline">
+			<div class="form-group">
+				<label for="usernameid">用户名</label>
+				<input type="text" class="form-control" id="usernameid" name="username" placeholder="请输入您的用户名"></br>
+			</div>
+			<div class="form-group">
+				<label for="passwordid">密码</label>
+				<input type="password" class="form-control" id="passwordid" name="password" placeholder="请输入您的密码"></br>
+			</div>
+			
+			<input type="submit" name="登陆">
+			<input type="reset" name="重置">
+		</form>
+
+		<form>
+		  	<div class="form-group">
+			    <label for="exampleInputEmail1">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			 </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputFile">File input</label>
+			    <input type="file" id="exampleInputFile">
+			    <p class="help-block">Example block-level help text here.</p>
+			  </div>
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox"> Check me out
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+	</body>
+</html>
